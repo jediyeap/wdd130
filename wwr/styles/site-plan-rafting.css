@@ -13,6 +13,25 @@ body {
     --accent1-color: #D0FFD6;
     --accent2-color: #DAFFEF;
 
-    --heading-font: 'Playwrite US Trad', regular;
+    --heading-font: 'Roboto', regular;
     --paragraph-font: 'Roboto', regular;
+
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: blue;
+    --nav-hover-link-color: gray;
+    --nav-hover-background-color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 20px;
 }
