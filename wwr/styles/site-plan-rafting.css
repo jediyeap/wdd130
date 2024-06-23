@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -13,8 +12,8 @@ body {
     --accent1-color: #D0FFD6;
     --accent2-color: #DAFFEF;
 
-    --heading-font: 'Roboto', regular;
-    --paragraph-font: 'Roboto', regular;
+    --heading-font: 'Roboto', normal;
+    --paragraph-font: 'Roboto', normal;
 
     --nav-background-color: var(--accent2-color);
     --nav-link-color: blue;
