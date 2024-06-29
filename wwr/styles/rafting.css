@@ -53,10 +53,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.socials {
-    size: 10px;
-}
-
 .hero {
     position: relative;
 }
