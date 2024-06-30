@@ -42,15 +42,17 @@ p {
 .hero h1 {
     position: absolute;
     top: 50px;
-    left: 500px;
+    text-align: center;
+    width: 50em;
     background-color: white;
+    opacity: 80%;
 }
 
 .hero article {
     position: absolute;
     top: 150px;
-    padding: 20px;
-    margin: 30px;
+    padding: 30px;
+    margin: 20px;
     color: var(--accent1-color);
     background-color: var(--secondary-color);
     opacity: 90%;
