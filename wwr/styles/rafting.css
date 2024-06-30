@@ -25,6 +25,11 @@ p {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
 * {
     max-width: 1500px;
 }
