@@ -17,61 +17,57 @@
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
+    color: var(--primary-color)
 }
 
 p {
-    padding: 20px;
     font-family: var(--paragraph-font);
+    color: black;
 }
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    font-family: var(--paragraph-font);
-}
-
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited{
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+* {
+    max-width: 1500px;
 }
 
 .hero {
     position: relative;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .hero h1 {
     position: absolute;
+    top: 50px;
+    left: 500px;
+    background-color: white;
 }
 
 .hero article {
     position: absolute;
-    display: inline-block;
-}
-
-.hero img {
-    display: block;
-    width:100%;
-    height: auto;
+    top: 150px;
+    padding: 20px;
+    margin: 30px;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    opacity: 90%;
 }
 
 .hero article img {
     float: right;
+    width: 200px;
+}
+
+.others img {
+    display: block;
+    margin: 20px;
+}
+
+.sociallinks {
+    width: 20px;
+    height: 20px;
+    display: inline;
 }
