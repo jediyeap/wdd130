@@ -68,13 +68,63 @@ a {
     width: 200px;
 }
 
+.others {
+    display: flex;
+}
+
+.others1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: 1/7;
+}
+
 .others img {
-    display: block;
-    margin: 20px;
+    max-width: 300px;
+}
+
+.others figcaption {
+    font-family: var(--paragraph-font);
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+header img {
+    display: grid;
+    grid-column: 2/3;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: 3/6;
+}
+
+.history {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: 1/4;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sociallinks {
-    width: 20px;
-    height: 20px;
-    display: inline;
+    max-width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 3/4;
 }
