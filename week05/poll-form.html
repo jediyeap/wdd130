@@ -7,7 +7,7 @@
         <title>WDD 130 | HTML Form - User Poll</title>
         <meta name="description" content="HTML Form Activity">
         <meta name="author" content="Jeremiah Dick Yeap">
-        <link rel="stylesheet" href="#">
+        <link rel="stylesheet" href="styles/poll-form.css">
     </head>
 
     <body>
@@ -19,19 +19,14 @@
                 <fieldset>
                     <legend>Contact Information</legend>
                     <label for="fullname">Full Name:</label>
-                    <br>
                     <input type="text" id="fullname" name="fullname">
-                    <br>
                     <label for="useremail">Email Address:</label>
-                    <br>
                     <input type="email" id="useremail" name="useremail">
-                    <br>
                 </fieldset>
 
                 <fieldset>
                     <legend>Questions</legend>
                     <label for="browser">What is your favorite browser?</label>
-                    <br>
                     <select name="browsers" id="browser">
                         <option value="">Please choose one of the following options</option>
                         <option value="ie">Internet Explorer</option>
@@ -40,15 +35,11 @@
                         <option value="safari">Safari</option>
                         <option value="firefox">Firefox</option>
                     </select>
-                    <br>
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet" value="Yes">
-                    <br>
                     <label for="placeslived">List the places you have lived:</label>
-                    <br>
                     <textarea id="placeslived" name="placeslived" rows="5" cols="33">Washington DC; Provo, UT; Singapore, Singapore; Rexburg, ID; Paris, France</textarea>
                 </fieldset>
-                <br>
                 <button type="submit">Submit Poll</button>
             </form>
         </main>
