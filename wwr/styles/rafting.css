@@ -123,6 +123,7 @@ header nav {
 }
 
 footer {
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -154,4 +155,53 @@ iframe {
 
 .contactus2 {
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: turquoise;
+    display: grid;
+    font-family: var(--paragraph-font);
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: black;
 }
