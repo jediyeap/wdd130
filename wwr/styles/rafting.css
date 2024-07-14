@@ -204,3 +204,11 @@ button {
 button:hover {
     background-color: black;
 }
+
+.emp img {
+    width: 150px;
+}
+
+.emp figcaption {
+    font-family: var(--paragraph-font);
+}
