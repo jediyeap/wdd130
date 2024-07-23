@@ -48,7 +48,7 @@ a {
     position: absolute;
     top: 50px;
     text-align: center;
-    width: 50em;
+    width: 500em;
     background-color: white;
     opacity: 80%;
 }
@@ -171,12 +171,12 @@ form {
 
 label {
     text-align: left;
-    padding-right: 1rem;
+    padding: 0.1rem;
 }
 
 input, select, textarea {
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 input[type="radio"] {
@@ -204,9 +204,11 @@ button:hover {
 }
 
 .emp img {
-    width: 150px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
 }
 
 .emp figcaption {
     font-family: var(--paragraph-font);
-}
