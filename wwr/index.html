@@ -5,8 +5,8 @@
     <head> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Trips | Rafting Company Name</title>
-        <meta name="description" content="This is the Trips page.">
+        <title>Index | Rafting Company Name</title>
+        <meta name="description" content="This is the home page of Rafting Project.">
         <meta name="author" content="Jeremiah Dick Yeap">
         <link rel="stylesheet" href="styles/rafting.css">
     </head>
@@ -24,22 +24,36 @@
 
         <main>
             <div class="hero">
-                <h1>Book a Trip!</h1>
+                <h1>Welcome to Club Rafting Company, where you raft your worries away!</h1>
 
                 <img src="images/river-wide2.jpeg" alt="Picture of a River">
             </div>
 
-            <div class="tripsdesc">
-                <h2>Reservations can be made below with our Contact Us button! Reservations made online require at least 3 days advanced notice. Some dates are unavailable if fully booked.</h2>
+            <section class="home1">
 
-                <button onclick="window.open('contact.html', '_blank')">Contact Us!</button>
+                <div class="homecatcher">
+                    <h2>Raft your worries away with Club Rafting Company! Where we provide affordable yet interesting rafting sessions! Click below to learn more about our upcoming trips!</h2>
+    
+                    <button onclick="window.open('trips.html', '_blank')">Plan Your Next Trip!</button>
+                </div>
+
+                <div class="homenews">
+                    <form>
+                        <label for="fullname">Your Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                        <label for="email">Your Email Address:</label>
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <button type="submit">Subscribe Me to Your Newsletter!</button>
+                    </form>
+                </div>
+            </section>
+
+            <div class="triphome">
+                <h3>Our Popular Destinations Includes:</h3>
             </div>
 
-            <div class="destinations">
-                <h2>Our Popular Destinations</h2>
-            </div>
-
-            <div class="tripimg">
+            <div class="triphome">
                 <figure>
                     <img src="images/rafting30_600.jpg">
                     <figcaption>1-Day Urubamba River Rafting</figcaption>
@@ -54,43 +68,6 @@
                     <img src="images/rafting65_600.jpg">
                     <figcaption>2 Days Nile River Rafting</figcaption>
                 </figure>
-            </div>
-
-            <div class="triptable">
-                <h2>When is Our Upcoming River Rafting Session?</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th scope="col">Destination</th>
-                            <th scope="col">Date</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Length</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <th scope="row">Urubamba River</th>
-                            <td>08/01/24</td>
-                            <td>10:00 a.m.</td>
-                            <td>1-day</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Salmon River</th>
-                            <td>07/31/24</td>
-                            <td>08:00 a.m.</td>
-                            <td>1/2 day</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">Nile River</th>
-                            <td>09/23/24</td>
-                            <td>12:00 p.m.</td>
-                            <td>2 days</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
 
         </main>

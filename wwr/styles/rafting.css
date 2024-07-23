@@ -266,3 +266,31 @@ th, td {
     display: grid;
     text-align: center;
 }
+
+.home1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.triphome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.triphome img {
+    max-width: 400px;
+}
+
+.triphome h3 {
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.homenews {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.homecatcher {
+    text-align: center;
+}
