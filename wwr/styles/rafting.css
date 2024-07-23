@@ -203,12 +203,20 @@ button:hover {
     background-color: black;
 }
 
+.emp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .emp img {
-    width: 100px;
+    width: 150px;
     display: flex;
-    justify-content: flex-start;
-    align-content: space-between;
+    flex: auto;
+    justify-content: center;
 }
 
 .emp figcaption {
     font-family: var(--paragraph-font);
+    grid-row: 2/3;
+    text-align: center;
+}
